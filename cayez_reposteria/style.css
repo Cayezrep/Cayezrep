@@ -1,0 +1,14 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.intro {
+  background: linear-gradient(to top, #ffc5be 1%, #ffb3b3 100%);
+  min-height: 950px;
+}
+
+.nav-transparente {
+  background-color: transparent;
+}
