@@ -5,10 +5,23 @@ body {
 }
 
 .intro {
-  background: linear-gradient(to top, #ffc5be 1%, #ffb3b3 100%);
+  background-color: #f9d9cc;
   min-height: 950px;
 }
 
 .nav-transparente {
   background-color: transparent;
+}
+
+.btn-cayez {
+  background-color: rgb(255, 178, 190);
+  color: black;
+  border-color: #ffabd9;
+}
+
+.btn-cayez:hover {
+  color: black;
+  background-color: rgb(255, 161, 175);
+  border-color: #ffabd9;
+
 }

@@ -5,103 +5,185 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../../style.css">
   <link rel="stylesheet" href="products.css">
   <title>Productos</title>
 </head>
 
 <body>
-  <section class="contenido">
-    <div class="mostrador" id="mostrador">
-      <div class="fila">
-        <div class="item" onclick="cargar(this)">
-          <div class="contenedor-foto">
-            <img src="../../assets/images/299869240_468309561536287_2133312512200831129_n.jpg">
-          </div>
-          <p class="descripcion">TORTA DE DRAGON BALL</p>
-          <span class="precio">$ 15.000</span>
-        </div>
-        <div class="item" onclick="cargar(this)">
-          <div class="contenedor-foto">
-            <img src="../../assets/images/275567155_686566592660157_4455069090072634482_n.jpg" alt="">
-          </div>
-          <p class="descripcion" id>TORTA HOMBRE ARAÑA </p>
-          <span class="precio">$ 10.000</span>
-        </div>
-        <div class="item" onclick="cargar(this)">
-          <div class="contenedor-foto">
-            <img src="../../assets/images/301002269_307741374887291_5915345800396516895_n.jpg" alt="">
-          </div>
-          <p class="descripcion">PASTEL DE 17 AÑOS
-          </p>
-          <span class="precio">$ 17.000</span>
-        </div>
-        <div class="item" onclick="cargar(this)">
-          <div class="contenedor-foto">
-            <img src="../../assets/images/304853151_551478346754259_7829307470326565200_n.jpg" alt="">
-          </div>
-          <p class="descripcion">PASTEL 30 AÑOS</p>
-          <span class="precio">$ 15.600</span>
-        </div>
+  <header>
+    <h1>CAYEZ REPOSTERIA</h1>
+  </header>
+  <section class="contenedor">
+    <!-- Contenedor de elementos -->
+    <div class="contenedor-items">
+      <div class="item">
+        <span class="titulo-item">PASTEL 15 AñOS</span>
+        <img src="../../assets/images/pastel 15 años.jpg" alt="" class="img-item">
+        <span class="precio-item">$15.000</span>
+        <button class="boton-item">Agregar al Carrito</button>
       </div>
-      <div class="fila">
-        <div class="item" onclick="cargar(this)">
-          <div class="contenedor-foto">
-            <img src="../../assets/images/302677162_1549506358833253_3561345977440468732_n.jpg" alt="">
-          </div>
-          <p class="descripcion">PASTEL DE ALMENDRAS</p>
-          <span class="precio">$ 17.000</span>
-        </div>
-        <div class="item" onclick="cargar(this)">
-          <div class="contenedor-foto">
-            <img src="../../assets/images/288642322_602457837797181_618593983554410644_n.jpg" alt="">
-          </div>
-          <p class="descripcion">PASTEL 24 AÑOS</p>
-          <span class="precio">$ 10.000</span>
-        </div>
-        <div class="item" onclick="cargar(this)">
-          <div class="contenedor-foto">
-            <img src="../../assets/images/287220514_132441062765168_726761559829130306_n.jpg" alt="">
-          </div>
-          <p class="descripcion">PASTEL DE BARBIE</p>
-          <span class="precio">$ 18.000</span>
-        </div>
-        <div class="item" onclick="cargar(this)">
-          <div class="contenedor-foto">
-            <img src="../../assets/images/301924858_184778400629627_5880958510858829875_n.jpg" alt="">
-          </div>
-          <p class="descripcion">PASTEL DE 15 AÑOS</p>
-          <span class="precio">$ 20.000</span>
-        </div>
+      <div class="item">
+        <span class="titulo-item">PASTEL 16 AÑOS</span>
+        <img src="../../assets/images/pastel 16.webp" alt="" class="img-item">
+        <span class="precio-item">$25.000</span>
+        <button class="boton-item">Agregar al Carrito</button>
+      </div>
+      <div class="item">
+        <span class="titulo-item">PASTEL 17 AÑOS</span>
+        <img src="../../assets/images/pastel 17 años.jpg" alt="" class="img-item">
+        <span class="precio-item">$35.000</span>
+        <button class="boton-item">Agregar al Carrito</button>
+      </div>
+      <div class="item">
+        <span class="titulo-item">PASTEL 24 AÑOS</span>
+        <img src="../../assets/images/pastel 24 Años.jpg" alt="" class="img-item">
+        <span class="precio-item">$18.000</span>
+        <button class="boton-item">Agregar al Carrito</button>
+      </div>
+      <div class="item">
+        <span class="titulo-item">PASTEL 30 AÑOS</span>
+        <img src="../../assets/images/pastel 30 años.jpg" alt="" class="img-item">
+        <span class="precio-item">$32.000</span>
+        <button class="boton-item">Agregar al Carrito</button>
+      </div>
+      <div class="item">
+        <span class="titulo-item">PASTEL CUMPLEAÑOS</span>
+        <img src="../../assets/images/pastel cumpleaños.jpg" alt="" class="img-item">
+        <span class="precio-item">$18.000</span>
+        <button class="boton-item">Agregar al Carrito</button>
+      </div>
+      <div class="item">
+        <span class="titulo-item">PASTEL DE ALMENDRAS</span>
+        <img src="../../assets/images/pastel de almendras.jpg" alt="" class="img-item">
+        <span class="precio-item">$54.000</span>
+        <button class="boton-item">Agregar al Carrito</button>
+      </div>
+      <div class="item">
+        <span class="titulo-item">PASTEL DRAGONBALL</span>
+        <img src="../../assets/images/pastel dragonball.jpg" alt="" class="img-item">
+        <span class="precio-item">$32.000</span>
+        <button class="boton-item">Agregar al Carrito</button>
+      </div>
+      <div class="item">
+        <span class="titulo-item">PASTEL FC BARCELONA</span>
+        <img src="../../assets/images/pastel fc barcelona.png" alt="" class="img-item">
+        <span class="precio-item">$60.000</span>
+        <button class="boton-item">Agregar al Carrito</button>
+      </div>
+      <div class="item">
+        <span class="titulo-item">PASTEL CUMPLEAÑOS</span>
+        <img src="../../assets/images/pastel cumpleañoss.jpg" alt="" class="img-item">
+        <span class="precio-item">$60.000</span>
+        <button class="boton-item">Agregar al Carrito</button>
+      </div>
+      <div class="item">
+        <span class="titulo-item">PASTEL COLDPLAY</span>
+        <img src="../../assets/images/pastel coldplay.jpg" alt="" class="img-item">
+        <span class="precio-item">$60.000</span>
+        <button class="boton-item">Agregar al Carrito</button>
+      </div>
+      <div class="item">
+        <span class="titulo-item">PASTEL UNICORNIO</span>
+        <img src="../../assets/images/UNICORNIO.jpg" alt="" class="img-item">
+        <span class="precio-item">$40.800</span>
+        <button class="boton-item">Agregar al Carrito</button>
+      </div>
+      <div class="item">
+        <span class="titulo-item">PASTEL ANGRYBIRDS</span>
+        <img src="../../assets/images/PASTEL ANGRYBIRDS.jpg" alt="" class="img-item">
+        <span class="precio-item">$52.000</span>
+        <button class="boton-item">Agregar al Carrito</button>
+      </div>
+      <div class="item">
+        <span class="titulo-item">PASTEL GIRASOLES</span>
+        <img src="../../assets/images/PASTEL DE GIRASOLES.png" alt="" class="img-item">
+        <span class="precio-item">$64.000</span>
+        <button class="boton-item">Agregar al Carrito</button>
+      </div>
+      <div class="item">
+        <span class="titulo-item">PASTEL DE MEDICINA</span>
+        <img src="../../assets/images/PASTEL DE MEDICINA.jpg" alt="" class="img-item">
+        <span class="precio-item">28.600</span>
+        <button class="boton-item">Agregar al Carrito</button>
+      </div>
+      <div class="item">
+        <span class="titulo-item">PASTEL POKEMON</span>
+        <img src="../../assets/images/PASTEL POKEMON.jpg" alt="" class="img-item">
+        <span class="precio-item">$25.000</span>
+        <button class="boton-item">Agregar al Carrito</button>
+      </div>
+      <div class="item">
+        <span class="titulo-item">PASTEL DE BODAS</span>
+        <img src="../../assets/images/PASTEL DE BODAS (1).jpeg" alt="" class="img-item">
+        <span class="precio-item">$70.000</span>
+        <button class="boton-item">Agregar al Carrito</button>
+      </div>
+      <div class="item">
+        <span class="titulo-item">PASTEL BODAS</span>
+        <img src="../../assets/images/pastel de bodas (2).jpg" alt="" class="img-item">
+        <span class="precio-item">$39.000</span>
+        <button class="boton-item">Agregar al Carrito</button>
+      </div>
+      <div class="item">
+        <span class="titulo-item">PASTEL BODAS</span>
+        <img src="../../assets/images/PASTEL DE BODAS (3).png" alt="" class="img-item">
+        <span class="precio-item">$48.000</span>
+        <button class="boton-item">Agregar al Carrito</button>
+      </div>
+      <div class="item">
+        <span class="titulo-item">PASTEL BODAS</span>
+        <img src="../../assets/images/PASTEL DE BODAS (4).jpg" alt="" class="img-item">
+        <span class="precio-item">$66.000</span>
+        <button class="boton-item">Agregar al Carrito</button>
+      </div>
+      <div class="item">
+        <span class="titulo-item">PASTEL BODAS</span>
+        <img src="../../assets/images/PASTEL DE BODAS (5).jpg" alt="" class="img-item">
+        <span class="precio-item">$90.000</span>
+        <button class="boton-item">Agregar al Carrito</button>
+      </div>
+      <div class="item">
+        <span class="titulo-item">PASTEL BODAS</span>
+        <img src="../../assets/images/PASTEL DE BODAS (6).jpg" alt="" class="img-item">
+        <span class="precio-item">$45.000</span>
+        <button class="boton-item">Agregar al Carrito</button>
+      </div>
+      <div class="item">
+        <span class="titulo-item">PASTEL BODAS</span>
+        <img src="../../assets/images/PASTEL DE BODAS (7).jpg" alt="" class="img-item">
+        <span class="precio-item">$59.999</span>
+        <button class="boton-item">Agregar al Carrito</button>
+      </div>
+      <div class="item">
+        <span class="titulo-item">PASTEL BODAS</span>
+        <img src="../../assets/images/PASTEL DE BODAS (8).jpg" alt="" class="img-item">
+        <span class="precio-item">$75.000</span>
+        <button class="boton-item">Agregar al Carrito</button>
       </div>
     </div>
-    <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
-    <div class="seleccion" id="seleccion">
-      <div class="cerrar" onclick="cerrar()">
-        &#x2715
+    <!-- Carrito de Compras -->
+    <div class="carrito" id="carrito">
+      <div class="header-carrito">
+        <h2>Tu Carrito</h2>
       </div>
-      <div class="info">
-        <img src="../../assets/images/wedding-cake-g3605e77be_1280.jpg" alt="" id="img">
-        <h2 id="modelo"></h2>
-        <p id="descripcion">Descripción Modelo 1</p>
 
-        <span class="precio" id="precio">$ 30.000</span>
-
-        <!-- <div class="fila">
-          <div class="size">
-            <label for="">SIZE</label>
-            <select name="" id="">
-              <option value="">40</option>
-              <option value="">42</option>
-              <option value="">44</option>
-              <option value="">46</option>
-            </select>
-          </div>
-          <button>AGREGAR AL CARRITO</button>
-        </div> -->
+      <div class="carrito-items"></div>
+      <div class="carrito-total">
+        <div class="fila">
+          <strong>Tu Total</strong>
+          <span class="carrito-precio-total">
+            $120.000,00
+          </span>
+        </div>
+        <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
       </div>
     </div>
   </section>
-
+  <script src="products.js"></script>
 </body>
 
 </html>

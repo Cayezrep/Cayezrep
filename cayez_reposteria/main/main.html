@@ -5,20 +5,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="../landing_styles.css">
+    <link rel="stylesheet" href="../assets/bootstrap/bootstrap.css">
     <title>Cayez Reposteria</title>
 </head>
 
 <body>
-    <div id="menu">
-        <ul>
-            <li><a href="#"> Inicio </a></li>
-            <li><a href="products/products.html"> Productos </a></li>
-            <li><a href="#"> Inventario </a></li>
-            <li><a href="#"> Domicilios </a></li>
-            <li><a href="#"> Contacto </a></li>
-        </ul>
-    </div>
+
+    <head>
+        <header>
+            <nav id="navigation">
+                <img class="logo" src="../assets/images/cayez_logo.png" alt="logo" style="border-radius: 120px;">
+                <ul id="navul">
+                    <li>
+                        <a class='' href='main.html'>Inicio</a>
+                    </li>
+                    <li>
+                        <a class='textcol2' href='products/products.html'>Productos</a>
+                    </li>
+                    <li>
+                        <a class='textcol3' href='#'>Domicilios</a>
+                    </li>
+                    <li>
+                        <a class='textcol3' href='#'>Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </head>
+
+    <body>
+        <section>
+            <div id="background" class="d-flex flex-column justify-content-center align-items-center"></div>
+            <h1 id="package">Bienvenido otra vez!
+            </h1>
+        </section>
+        <section id="section2" class="mb-5">
+            <h1 id="section2-h1">Nuestros productos mas recientes:</h1>
+            <div class="image-scroller">
+                <div class="image-ticker-fade" aria-hidden="true"></div>
+                <div class="image-ticker-container">
+                    <img src="../assets/images/275567155_686566592660157_4455069090072634482_n.jpg" alt="">
+                    <img src="../assets/images/287220514_132441062765168_726761559829130306_n.jpg" alt="">
+                    <img src="../assets/images/288642322_602457837797181_618593983554410644_n.jpg" alt="">
+                    <img src="../assets/images/299869240_468309561536287_2133312512200831129_n.jpg" alt="">
+                    <img src="../assets/images/301002269_307741374887291_5915345800396516895_n.jpg" alt="">
+                </div>
+                <div class="image-ticker-container">
+                    <img src="../assets/images/301924858_184778400629627_5880958510858829875_n.jpg" alt="">
+                    <img src="../assets/images/304853151_551478346754259_7829307470326565200_n.jpg" alt="">
+                    <img src="../assets/images/304853151_551478346754259_7829307470326565200_n.jpg" alt="">
+                    <img src="../assets/images/9d11881b0a342430c18d1305462eb403.png" alt="">
+                    <img src="../assets/images//bodas 1.jpeg" alt="">
+                </div>
+            </div>
+        </section>
+    </body>
+    <footer>
+        <br><br><br><br><br><br><br><br>
+        <div id="footbackground">
+            <div class="footer-container">
+                <div class="footer-links">
+                    <h3>Cayez Reposteria</h3>
+                </div>
+                <div class="footer-links">
+                    <h3 id="foot-heading">Contactanos en nuestras redes sociales:</h3>
+                    <h4 id="sub-links"><a href="https://www.instagram.com/cayez_reposteria"
+                            target="_blank">Instagram</a></h4>
+                    <h4 id="sub-links"><a href="https://web.facebook.com/cayezreposteria" target="_blank">Facebook</a>
+                    </h4>
+                    <h4 id="sub-links"><a href="https://www.whatsapp.com/?lang=es" target="_blank">Whatsapp</a></h4>
+                </div>
+            </div>
+            <p id="copyright">2023 Cayez Reposteria. Derechos de autor.</p>
+        </div>
+    </footer>
+
+<script src="../assets/bootstrap/bootstrap.js"></script>
+<script src="../assets/bootstrap/popperjs.js"></script>
+<script src="../assets/jquery/jquery-3.6.4.min.js"></script>
+<script src="../landing_js.js"></script>
 </body>
 
 </html>
